@@ -1,5 +1,14 @@
+/* 
+
+****************************************************************
+AUTHOR : Smriti 
+Date : 29-04-2023
+****************************************************************
+
+*/
+
 import { Route, Routes } from "react-router-dom";
-import { unAuthenticatedRoutes } from "./routes";
+import { unAuthenticatedRoutes } from "../routes";
 
 const UnAuthenticatedApp = () => {
   return (

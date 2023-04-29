@@ -1,3 +1,12 @@
+/* 
+
+****************************************************************
+AUTHOR : Smriti 
+Date : 29-04-2023
+****************************************************************
+
+*/
+
 import { BrowserRouter } from "react-router-dom";
 import "./App.scss";
 import Auth from "./Auth";

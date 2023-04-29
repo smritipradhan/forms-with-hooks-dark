@@ -2,13 +2,14 @@
 
 ****************************************************************
 AUTHOR : Smriti 
+Date : 29-04-2023
 ****************************************************************
 
 */
 
 import React from "react";
-import AuthenticatesApp from "./AuthenticatedApp";
-import UnAuthenticatedApp from "./UnAuthenticatedApp";
+import AuthenticatesApp from "./authComponents/AuthenticatedApp";
+import UnAuthenticatedApp from "./authComponents/UnAuthenticatedApp";
 
 const Auth = () => {
   let isLoggedIn = true;

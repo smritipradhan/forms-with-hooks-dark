@@ -2,15 +2,16 @@
 
 ****************************************************************
 AUTHOR : Smriti 
+Date : 29-04-2023
 ****************************************************************
 
 */
-import React, { useState } from "react";
+
 import EmailOutlinedIcon from "@mui/icons-material/EmailOutlined";
 import LockOutlinedIcon from "@mui/icons-material/LockOutlined";
 import PriorityHighIcon from "@mui/icons-material/PriorityHigh";
-import "./Login.scss";
 import useInput from "../../hooks/input-hook";
+import "./Login.scss";
 
 const Login = () => {
   const {
