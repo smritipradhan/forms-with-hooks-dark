@@ -21,7 +21,7 @@ const Login = () => {
     valueBlurHandler: userNameBlurHandler,
     isValid: usernameIsValid,
     reset: usernameReset,
-  } = useInput((value) => value.trim() !== "");
+  } = useInput((value) => value.trim() !== "" && value.includes("@"));
 
   const {
     value: enteredPassword,
@@ -47,9 +47,9 @@ const Login = () => {
   return (
     <div className="loginContainer">
       <div className="loginBox drop">
-        <p className="loginText">MOM ?</p>
+        <p className="loginText">Kassie: MOM ?</p>
         <p className="loginText">
-          MOMMY's with the Maggots Now
+          Ellie: MOMMY's with the Maggots Now
           <PriorityHighIcon />
           <PriorityHighIcon />
         </p>
